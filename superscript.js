@@ -21,6 +21,7 @@ function leChangement(){
 
 }
 
+leChangement();
 
 function testValue(input){
     if(isNaN(input)=== true){
@@ -39,7 +40,7 @@ function connectClickEvent(){
 
 }
 
-leChangement();
+
 
 try{
 const txtMail = document.querySelector("#txt-mail");
